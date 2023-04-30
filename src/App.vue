@@ -1,39 +1,48 @@
 <script setup>
-import {
-  BriefcaseIcon,
-  CalendarIcon,
-  CheckIcon,
-  ChevronDownIcon,
-  CurrencyDollarIcon,
-  LinkIcon,
-  MapPinIcon,
-  PencilIcon,
-} from '@heroicons/vue/20/solid'
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-const people = [
-  {
-    name: 'Calvin Hawkins',
-    email: 'calvin.hawkins@example.com',
-    image:
-      'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Kristen Ramos',
-    email: 'kristen.ramos@example.com',
-    image:
-      'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Ted Fox',
-    email: 'ted.fox@example.com',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-]
+// import {
+//   BriefcaseIcon,
+//   CalendarIcon,
+//   CheckIcon,
+//   ChevronDownIcon,
+//   CurrencyDollarIcon,
+//   LinkIcon,
+//   MapPinIcon,
+//   PencilIcon,
+// } from '@heroicons/vue/20/solid'
+// import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+// const people = [
+//   {
+//     name: 'Calvin Hawkins',
+//     email: 'calvin.hawkins@example.com',
+//     image:
+//       'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+//   },
+//   {
+//     name: 'Kristen Ramos',
+//     email: 'kristen.ramos@example.com',
+//     image:
+//       'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+//   },
+//   {
+//     name: 'Ted Fox',
+//     email: 'ted.fox@example.com',
+//     image:
+//       'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+//   },
+// ]
 </script>
 
 <template>
-  <header>
+  <header  class="bg-black">
+    <div class="container lg:flex lg:items-center lg:justify-between bg-blue-300">
+      <div class="text-white bg-blue-700 p-5 rounded hover:bg-black">div 1</div>
+      <div class="text-white bg-blue-700 p-5 rounded hover:bg-black">div 2</div>
+      <div class="text-white bg-blue-700 p-5 rounded hover:bg-black">div 3</div>
+      <div class="text-white bg-blue-700 p-5 rounded hover:bg-black">div 4</div>
+      <div class="btn">Button</div>
+    </div>
+  </header>
+  <!-- <header>
     <div class="lg:flex lg:items-center lg:justify-between">
     <div class="min-w-0 flex-1">
       <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Back End Developer</h2>
@@ -78,7 +87,6 @@ const people = [
         </button>
       </span>
 
-      <!-- Dropdown -->
       <Menu as="div" class="relative ml-3 sm:hidden">
         <MenuButton class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:ring-gray-400">
           More
@@ -110,7 +118,7 @@ const people = [
     </li>
   </ul>
   <br>
-  </main>
+  </main> -->
 </template>
 
 <style>

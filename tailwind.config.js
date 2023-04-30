@@ -6,6 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    container:{
+      center:true
+    },
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif']
+    // ,colors: {
+    //   transparent: 'transparent',
+    //   black: '#000',
+    //   white: '#fff'
+    // }
   },
   plugins: [],
 }
